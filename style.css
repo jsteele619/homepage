@@ -15,6 +15,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+
 .header1 {
     display: flex;
     justify-content: center;
@@ -74,6 +75,24 @@ body {
     border-radius: 50%;
     margin-top: 20px;
     margin-bottom: 20px
+}
+
+#homepage-screenshot {
+    height: auto;
+    width: 100%;
+    border: 6px solid black;
+    border-radius: 4px;
+    max-width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homepage-app, #chess-app, #pokemon-app, #movie-recommender, #bible-nlp, #visualizations {
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 #jeremy-steele {
