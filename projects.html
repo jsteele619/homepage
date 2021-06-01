@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Jeremy Steele's Homepage</title>
+    <meta charset="utf-8">
+      
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- JQuery Script -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Icon Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Specific Font Sheet for .welcome-->
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+   
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="navigation">
+            <header class="header1">
+                <img id="logo" src="js.png" alt="logo">
+                    <nav>
+                        <ul class="list-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+            </header>
+        </div>
+
+        <div class="welcome">
+            <h1><U>Recent Projects</U></h1>
+        </div>
+        <div class="languages">
+            <div class="inner-border">
+                <div class="row">
+                    <div class="col-sm-4" id="homepage-app">
+                        <h2 style="text-align: center;">This Homepage</h2>
+                            <img id="profile" src="jsnl.jpg" alt="profile"><br>
+                            <a href="index.html">Homepage</a>
+                    </div>
+                    <div class="col-sm-8" id="home-page-description">
+                        <h2 style="text-align: center;">Description</h2>
+                        <p>I built out a full homepage introducing myself, showcasing my projects, and giving employers, colleagues and friends a place of contact.</p>
+                    </div>
+                
+                <div class="row">
+                    <div class="col-sm-4" id="chess-app">
+                        <h2 style="text-align: center;">Chess Statistics</h2>
+                            <img id="profile" src="jsnl.jpg" alt="profile"><br>
+                            <a href="https://github.com/jsteele619/chess_scraping_project">Github Repo</a>
+                    </div>
+                    <div class="col-sm-8" id="chess-app-description">
+                        <h2 style="text-align: center;">Description</h2>
+                        <p>This code fetchs user chess data from chess.com, and prints out statistical visualization of the user's data.</p>
+                        <p>The graphs show several points of analysis including win/draw/loss by time of day, rating progression over time (overlayed with time controls), and opening choices, 
+                            both for white and black, and the respective results.</p>
+                        <p>There are currently 19 output graphs, and the ability to create several more. I will be building out the website in the next weeks.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4" id="pokemon-app">
+                        <h2 style="text-align: center;">The Pokemon Website</h2>
+                        <img id="profile" src="jsnl.jpg" alt="profile"><br>
+                        
+                    </div>
+                    <div class="col-sm-8" id="pokemon-app-description">
+                        <h2 style="text-align: center;">Description</h2>
+                        <p>A Pokemon themed app that allows you to search for pokemon by name, id number, generation, type, and/or legendary. We also have a battle strategy section, a breeding section, and an interactive D3 chart.</p>
+                        <p>Flask app web server to serve the data from a database backend to users viewing an interactive website with JavaScript processing the data.</p>
+                        <p>Using Python, Flask, D3, MongoDB</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4" id="movie-recommender">
+                        <h2 style="text-align: center;">The Movie Recommender</h2>
+                            <img id="profile" src="jsnl.jpg" alt="profile"><br>
+                    </div>
+                    <div class="col-sm-8" id="movie-recommender-description">
+                        <h2 style="text-align: center;">Description</h2>
+                            <p>Machine Learning Project that recommends movies</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4" id="bible-nlp">
+                        <h2 style="text-align: center;">Bible Natural Language Processing</h2>
+                            <img id="profile" src="jsnl.jpg" alt="profile"><br>
+                    </div>
+                    <div class="col-sm-8" id="bible-nlp-description">
+                        <h2 style="text-align: center;">Description</h2>
+                            <p>Creating a Python Script that analyzes text using Natural Language Processing and the TextBlob Library.</p>
+                            <p>The categorization uses a -1 to 1 scale to judge polarity and aggregrates the data per bible book.</p>
+                            <p>You could easily apply this script to other popular pieces of literature to compare sentiment.</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-4" id="visualizations">
+                        <h2 style="text-align: center;">Visualizations</h2>
+                            <img id="profile" src="jsnl.jpg" alt="profile"><br>
+                    </div>
+                    <div class="col-sm-8" id="visualizations-description">
+                        <h2 style="text-align: center;">Description</h2>
+                            <p>Here I show two different visualization projects. The first uses public wildfire data from the Forest Service Research Data Archive. The second uses public CitiBike data from New York City</p>
+                            <p>I use Tableau for the results.</p>
+                    </div>
+            </div>
+
+        </div>
+        
+        <footer class="footer">All Rights Reserved by Jeremy Steele</footer>
+    
+    </div>
+    <!-- Bootstrap Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
