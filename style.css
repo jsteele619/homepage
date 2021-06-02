@@ -13,6 +13,7 @@ body {
 
 .navigation {
     background-color: rgb(255, 255, 255);
+    border-radius: 3px;
 }
 
 
@@ -45,17 +46,19 @@ body {
 .welcome {
     margin: 50px 150px;
     font-size: 20px;
-    background-color: rgb(255, 246, 232);
-    padding: 20px 20px;
+    background-color: rgb(247, 222, 181);
+    padding: 30px 20px;
     text-align: center;
     color: black;
     font-family: 'AclonicaC';
+    border-radius: 5px;
 }
 
-.languages {
+.outer-box {
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 225, 218);
     margin: 30px 30px 30px 30px;
+    border-radius: 2px;
 }
 
 .icons {
@@ -63,6 +66,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .inner-border {
     margin: 20px 20px;
     padding: 20px 20px;
@@ -70,7 +74,7 @@ body {
 
 #profile {
     height: 50%;
-    width: 60%;
+    width: 64%;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 20px;
@@ -88,16 +92,29 @@ body {
     margin-right: auto;
 }
 
+.row .gallery {
+    margin-left: 10px;
+    margin-right: 10px;
+    color:black;
+}
+
 #homepage-app, #chess-app, #pokemon-app, #movie-recommender, #bible-nlp, #visualizations {
     text-align: center;
     display: block;
     padding-bottom: 20px;
     padding-top: 10px;
+    color:black;
 }
+
+#homepage-app-description, #chess-app-description, #pokemon-app-description, #movie-recommender-description, #bible-nlp-description, #visualizations-description {
+    margin-top: 10px;
+}
+
 
 #jeremy-steele {
     text-align: center;
 }
+
 #skills-languages {
     margin-top: 20px;
     text-align: center;
@@ -128,6 +145,7 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 20px 20px;
     text-align: center;
+    border-radius: 3px;
 }
 
 .fa {
