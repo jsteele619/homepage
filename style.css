@@ -16,7 +16,6 @@ body {
     border-radius: 3px;
 }
 
-
 .header1 {
     display: flex;
     justify-content: center;
@@ -33,11 +32,12 @@ body {
 
 .list-nav {
     list-style: none;
+    display: inline-flex;
 }
 
 .list-nav li {
-    display: inline-block;
-    padding: 0px 20px;
+    display: inline-flex;
+    padding: 2% 5%;
     font-size: 18px;
     font-weight: 700;
     font-family:'Segoe UI', Tahoma;
@@ -47,7 +47,7 @@ body {
     margin: 3% 20%;
     font-size: 20px;
     background-color: rgb(247, 222, 181);
-    padding: 30px 20px;
+    padding: 2% 3%;
     text-align: center;
     color: black;
     font-family: Didot, Times New Roman, serif;
