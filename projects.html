@@ -49,11 +49,11 @@
                     </div>
                     <div class="col-sm-8" id="home-page-description">
                         <h3 style="text-align: center;">Description</h3><hr>
-                        <p>This full homepage site introduces myself, showcases my projects, and giving employers, colleagues and friends a place of contact.</p>
-                        <p>This site uses HTML, CSS, and Bootstrap to make it mobile responsive. Later I will host this site under a domain name, attach it within a Django App with a python backend.  </p>
+                        <p>This full homepage site introduces myself, showcases my projects, and giving employers, colleagues and friends a place of contact. 
+                            This site uses HTML, CSS, and Bootstrap to make it mobile responsive.</p>
                         <p>The site has three sections. The homepage is an introduction and shows the languages and skills I'm technically proficient in.
-                            It also has links to my LinkedIn and GitHub account, as well as my email address.</p>
-                        <p>It has this projects page which showcases all my projects, and my About me page which shares some details about myself.</p>
+                            It also has links to my LinkedIn and GitHub account, as well as my resume and email address.</p>
+                        
                     </div>
                     <hr>
                 
@@ -66,10 +66,12 @@
                     </div>
                     <div class="col-sm-8" id="chess-app-description">
                         <h3 style="text-align: center;">Description</h3><hr>
-                        <p>This code fetchs user chess data from chess.com, and prints out statistical visualization of the user's data.</p>
+                        <p>This code fetchs user chess data from chess.com using a python get() request. I parse through the result of games, 
+                            and do necessary adjustments such as finding the boolean results, organizing the pgn score into parsing configuration, and more.</p>
+                        <p>I send the entire formatted pandas dataframe to Postgres where I use f string SQL queries to find specific statistics. 
+                            I send the results back to python, and graph the results using matplotlib, and print out the various statistical visualization of the user's data.</p>
                         <p>The graphs show several points of analysis including win/draw/loss by time of day, rating progression over time (overlayed with time controls), and opening choices, 
-                            both for white and black, and the respective results.</p>
-                        <p>There are currently 19 output graphs, and the ability to create several more. I will be building out the website in the next weeks.</p>
+                            both for white and black, and the respective results. There are currently 19 output graphs, and the ability to create several more.</p>
                     </div>
                 </div>
                     <hr>

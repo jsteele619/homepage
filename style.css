@@ -84,6 +84,20 @@ body {
     margin-bottom: 20px
 }
 
+#coffee-id, #tea-id {
+    height: auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+#welcome-delete, #language-delete, #buttons {
+    margin-bottom: 70px;
+}
+#spacing {
+    margin-left: 6%;
+}
 #homepage-screenshot {
     height: auto;
     width: 100%;
@@ -112,7 +126,6 @@ body {
 #homepage-app-description, #chess-app-description, #pokemon-app-description, #movie-recommender-description, #bible-nlp-description, #visualizations-description {
     margin-top: 10px;
 }
-
 
 #jeremy-steele {
     text-align: center;
