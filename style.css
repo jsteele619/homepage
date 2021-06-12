@@ -18,6 +18,7 @@ body {
 
 #logo {
     height: 60px;
+    width: auto;
 }
 
 .list-nav {
@@ -25,16 +26,17 @@ body {
     text-align: center;
     justify-content: center;
     width: 100%;
+    margin-top: 10px;
 }
 
 .list-nav li {
     text-align: center;
-    padding: 20px 20px;
-    font-size: 18px;
-    font-weight: 700;
+    padding: 10px 10px;
+    font-size: 26px;
+    font-weight: 550;
     font-family:'Segoe UI', Tahoma;
     display: inline;
-    width: 100%;
+    width: 20%;
 }
 
 .welcome {
@@ -44,21 +46,38 @@ body {
     padding: 2% 3%;
     text-align: center;
     color: black;
-    font-family: Didot, Times New Roman, serif;
+    font-family: Times New Roman, serif;
     border-radius: 5px;
     font-weight: 500;
 }
 
 .outer-box {
     justify-content: center;
-    background-color: rgb(230, 225, 218);
-    margin: 30px 30px 30px 30px;
+    background-color: rgb(223, 215, 211);
+    margin: 30px 40px 30px 40px;
+    border-radius: 3px;
+}
+
+.outer-projects {
+    justify-content: center;
+    background-color: rgb(235, 222, 199);
+    margin: 30px 40px 30px 40px;
     border-radius: 3px;
 }
 
 .inner-border {
-    margin: 2% 2%;
-    padding: 2% 2%;
+    margin: 30px 5px 0px 5px;
+    padding-top: 35px;
+    color: black;
+    justify-content: center;
+}
+
+.inner-projects {
+    margin: 30px 5px 0px 5px;
+    padding-top: 20px;
+    padding-right: 30px;
+    color: black;
+    justify-content: center;
 }
 
 .icons {
