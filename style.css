@@ -16,31 +16,25 @@ body {
     border-radius: 3px;
 }
 
-.header1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 90%;
-}
-
 #logo {
-    max-width: 80%;
-    max-height: 80%;
-    margin: 3% 3%;
+    height: 60px;
 }
 
 .list-nav {
     list-style: none;
-    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .list-nav li {
-    display: inline-flex;
-    padding: 2% 5%;
+    text-align: center;
+    padding: 20px 20px;
     font-size: 18px;
     font-weight: 700;
     font-family:'Segoe UI', Tahoma;
+    display: inline;
+    width: 100%;
 }
 
 .welcome {
