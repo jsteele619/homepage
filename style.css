@@ -18,7 +18,7 @@ body {
 
 #logo {
     height: 60px;
-    width: auto;
+    max-width: 100%;
 }
 
 .list-nav {
@@ -67,7 +67,7 @@ body {
 
 .inner-border {
     margin: 30px 5px 0px 5px;
-    padding-top: 35px;
+    padding: 30px 20px 30px 20px;
     color: black;
     justify-content: center;
 }
@@ -142,11 +142,13 @@ body {
 
 #jeremy-steele {
     text-align: center;
+    border-right-style: solid;
+   
 }
 
 #skills-languages {
-    margin-top: 20px;
     text-align: center;
+    
 }
 
 #super-h1 {
