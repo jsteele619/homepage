@@ -122,7 +122,7 @@ body {
     margin-right: auto;
 }
 
-.row .gallery {
+.gallery {
     margin-left: 10px;
     margin-right: 10px;
     color:black;
@@ -148,7 +148,6 @@ body {
 
 #skills-languages {
     text-align: center;
-    
 }
 
 #super-h1 {
@@ -158,6 +157,7 @@ body {
 .skill-list {
     list-style-type: none;
     line-height: 1.8;
+    text-align: center;
 }
 
 .paragraph {
