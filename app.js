@@ -50,3 +50,13 @@ function teaTime() {
     button.style.marginBottom = "20px";
     
 }
+
+function queryRules() {
+    
+    var classTime = document.getElementById("#jeremysteele");
+    classTime.style.borderRight = "none";
+
+    var queryTime = document.getElementById("#logo");
+    queryTime.parentNode.removeChild(queryTime);
+    }
+

@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Specific Font Sheet for .welcome-->
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
-    <!-- D3 Source -->
-    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
 </head>
 
@@ -33,9 +31,9 @@
         </div>
 
         <div class="outer-box">
-            <div class="container inner-border">
+            <div class="container-fluid inner-border">
                 <div class="row">
-                    <div class="col-md-6" id="jeremy-steele">
+                    <div class="col-xs-6 col-md-6" id="jeremy-steele">
                         <img id="profile" src="images/jsnl.jpg" alt="profile"><br>
                         <h1 style="font-size: 50px; font-weight: 400;"><u>Jeremy Steele</u></h1>
                         <br><br>
@@ -43,16 +41,15 @@
                         <h6>UC Berkeley Data Science Bootcamp Graduate</h6>
                         <br>
                         
-                        <div class="container-fluid" id="big-time">
-                            <a href="https://www.linkedin.com/in/jeremysteelewriter" class="fa fa-linkedin fa-3x"></a>
-                            <a href="https://www.github.com/jsteele619" class="fa fa-github fa-3x"></a>
-                            <a href="images/jeremy_steele_resume-15.pdf" class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></a>
+                        <div id="big-time">
+                            <a href="https://www.linkedin.com/in/jeremysteelewriter"><i class="fa fa-linkedin fa-3x"></i></a>
+                            <a href="https://www.github.com/jsteele619"><i class="fa fa-github fa-3x"></i></a>
+                            <a href="images/jeremy_steele_resume-15.pdf"><i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i></a>
                         </div>
                     </div>
                     
-                    <div class="col-md-6" id="skills-languages">
-                        <div class="container-fluid">
-                        <br>
+                    <div class="col-xs-6 col-md-6" id="skills-languages">
+                        <div style="display: block;"><br>
                             <h1 style="font-size: xx-large"><b> Welcome in! </b></h1>
                             <p id="welcome-delete" style="font-size: xx-large"> Would you like a cup of tea or coffee?</p>
                         </div>
@@ -61,6 +58,7 @@
                             <span id=spacing></span>
                             <button type="button" class="btn btn-outline-dark btn-lg" id="tea">Tea</button>
                         </div>
+                        <div id="something">
                             <p id="language-delete" style="font-size: xx-large"> Please explore the site.</p>
                             <h1 id="super-h1" style="text-align: center; "><u>Languages and Skills</u></h1>
                             <ul class="skill-list"> 
@@ -70,7 +68,8 @@
                                 <li><b>Web Development</b> (HTML5, CSS, Bootstrap)</b></li>
                                 <li><b>Cloud Computing</b> and <b>Git</b> (Version Control)</li>
                                 <li><b>Visualization</b> (Excel, VBA, Tableau)</li>
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

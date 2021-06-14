@@ -3,6 +3,32 @@
     padding: 0;
 }
 
+@media only screen and (max-width: 765px) {
+    #jeremy-steele {
+        border-right-color: rgb(223, 215, 211);
+    }
+}
+@media only screen and (max-width: 500px) {   
+    #logo {
+        display: none;
+    }
+    .outer-box {
+        margin: 1em 1.5em 1em 1.5em;
+    }
+
+    #skills-languages {
+        display: none;
+    }
+  }
+
+@media only screen and (max-width: 500px) {   
+    .inner-projects {
+        align-content: center;
+        text-align: center;
+    }
+  }
+
+
 body {
     background-image: url(images/back2.jpg);
     background-size: cover;
@@ -56,6 +82,7 @@ body {
     background-color: rgb(223, 215, 211);
     margin: 2em 3em 2em 3em;
     border-radius: 3px;
+    overflow: auto;
 }
 
 .outer-projects {
@@ -69,7 +96,8 @@ body {
     margin: 1em ;
     padding: 2em .3em 2em .3em;
     color: black;
-    justify-content: center;
+    overflow: visible;
+    
 }
 
 .inner-projects {
@@ -148,7 +176,6 @@ body {
 
 #skills-languages {
     text-align: center;
-    margin-top: 1em;
 }
 
 .fa {
